@@ -1,0 +1,12 @@
+{
+    "applications":[
+        {
+            "id": 1,
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "test1@gmail.com",
+            "phone": "07384959384",
+            "country": "Ukraine"
+        }
+    ]
+}
