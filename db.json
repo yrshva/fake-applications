@@ -1,12 +1,13 @@
 {
-    "applications":[
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe",
-            "email": "test1@gmail.com",
-            "phone": "07384959384",
-            "country": "Ukraine"
-        }
-    ]
+  "applications": [
+    {
+      "id": 1,
+      "appId": "9234902352345",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "test1@gmail.com",
+      "country": "Ukraine",
+      "phoneNumber": "07384959384"
+    }
+  ]
 }
