@@ -1,0 +1,10 @@
+.applicationform {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.applicationform form input {
+  width: 100%;
+  margin: 10px;
+  display: block;
+}/*# sourceMappingURL=Form.css.map */

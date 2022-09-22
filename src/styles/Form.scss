@@ -1,0 +1,12 @@
+.applicationform {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  form {
+    input {
+      width: 100%;
+      margin: 10px;
+      display: block;
+    }
+  }
+}
