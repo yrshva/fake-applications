@@ -6,6 +6,7 @@ import {
 } from "react-datalist-input";
 import { uid } from "uid";
 import { countries } from "../countries";
+import ErrorHandler from "../ErrorChecks/ErrorHandler";
 import PhoneNumberInput from "./PhoneNumberInput";
 
 const CountryInput = () => {
@@ -23,10 +24,13 @@ const CountryInput = () => {
       })),
     []
   );
+  const isValidCountry = (country: string) => {
+    return /^[a-z\s\-]*$/i.test(country);
+  };
   return (
     <>
       <DatalistInput
-        label="Select country"
+        label="Country:"
         value={country}
         setValue={setCountry}
         placeholder="Ukraine"
@@ -41,6 +45,9 @@ const CountryInput = () => {
           readOnly: false,
         }}
       />
+      {country && !isValidCountry(country)
+        ? ErrorHandler("firstName", true)
+        : ErrorHandler("firstName", false)}
       <PhoneNumberInput country={country} countries={countries} />
     </>
   );
