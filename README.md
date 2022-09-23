@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Before starting a project run:
+Before starting a project run the following in the project directory:
 
 ### `npm install`
 
@@ -12,12 +12,12 @@ Installs the used packages
 
 To start a server, you can run:
 
-###`json-server –watch db.json port 3004`
+### `json-server –watch db.json port 3004`
 
 
 ###
 
-In the project directory, you can run:
+In the separate terminal of the project directory, you can run:
 
 ### `npm start`
 
