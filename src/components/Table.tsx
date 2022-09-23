@@ -9,7 +9,7 @@ interface Application {
 }
 const Table = (props: { applications: Application[] }) => {
   return (
-    <table className="table table-striped table-bordered ">
+    <table className="table table-striped table-bordered mt-5">
       <thead>
         <tr>
           <th scope="col">Number</th>
