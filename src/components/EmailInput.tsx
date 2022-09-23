@@ -4,7 +4,7 @@ import ErrorHandler from "../ErrorChecks/ErrorHandler";
 const EmailInput = () => {
   const [email, setEmail] = useState<string>("");
   const isValidEmail = (email: string) => {
-    return /^[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]*$/.test(email);
+    return /^[A-Za-z0-9\-]+@[A-Za-z\-]+\.[A-Za-z]*$/.test(email);
   };
   return (
     <>
