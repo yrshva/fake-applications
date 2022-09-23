@@ -2,12 +2,21 @@
   "applications": [
     {
       "id": 1,
-      "appId": "9234902352345",
+      "appId": "6ded00a1d3e",
       "firstName": "John",
       "lastName": "Doe",
-      "email": "test1@gmail.com",
-      "country": "Ukraine",
-      "phoneNumber": "07384959384"
+      "email": "johndoe@gmail.com",
+      "country": "Germany",
+      "phoneNumber": "+357384959384"
+    },
+    {
+      "id": 2,
+      "appId": "cdfea138fb6",
+      "firstName": "Jessica",
+      "lastName": "Green",
+      "email": "jessicagreen@gmail.com",
+      "country": "United States",
+      "phoneNumber": "+18602859352"
     }
   ]
 }
