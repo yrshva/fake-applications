@@ -4,7 +4,7 @@ import ErrorHandler from "../ErrorChecks/ErrorHandler";
 const FirstNameInput = () => {
   const [firstName, setFirstName] = useState<string>("");
   const isValidName = (name: string) => {
-    return /^[a-z]*$/i.test(name);
+    return /^[a-z\s\-]*$/i.test(name);
   };
   return (
     <>
