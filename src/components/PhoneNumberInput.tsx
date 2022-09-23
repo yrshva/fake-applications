@@ -16,7 +16,7 @@ const PhoneNumberInput = (props: Props) => {
       {" "}
       <label>Phone Number:</label>
       <input
-        placeholder="1234567890"
+        placeholder="+1234567890"
         defaultValue={
           props.countries.find((el) => el.name === props.country)?.dial_code
         }
