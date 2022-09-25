@@ -6,11 +6,11 @@ const ErrorCheck = (
   phoneNumber: string
 ) => {
   if (
-    /^[A-Za-z0-9]+@[A-Za-z]+\.[A-Za-z]*$/.test(email) &&
-    /^[a-z]*$/i.test(firstName) &&
-    /^[a-z]*$/i.test(lastName) &&
+    /^[A-Za-z0-9\-\.\_]+@[A-Za-z\-]+\.[A-Za-z]*$/.test(email) &&
+    /^[a-z\s\-]*$/i.test(firstName) &&
+    /^[a-z\s\-]*$/i.test(lastName) &&
     /^\+[0-9]*$/i.test(phoneNumber) &&
-    /^[a-z]*$/i.test(country)
+    /^[a-z\s\-]*$/i.test(country)
   ) {
     return false;
   } else {
